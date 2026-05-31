@@ -2,11 +2,8 @@
     "https.rejectUnauthorized": false,
     "http.proxyStrictSSL": false,
     "languageserver": {
-      "go": {
-        "command": "gopls",
-        "rootPatterns": ["go.mod"],
-        "trace.server": "verbose",
-        "filetypes": ["go"]
+      "go.goplsOptions": {
+	"remote": "auto"
       },
       "pyrefly": {
         "command": "pyrefly",
